@@ -15,7 +15,7 @@ for cmd in "${REQUIRED_CMDS[@]}"; do
   fi
 done
 
-OUTPUT_APK_NAME=phantasy-star-classics-6-4-0-patched.apk
+OUTPUT_APK_NAME=phantasy-star-classics-patched.apk
 MANIFEST=./psc_source/AndroidManifest.xml
 
 apktool d "$INPUT_APK_NAME" -o psc_source
