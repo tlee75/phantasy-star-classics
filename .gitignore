@@ -32,3 +32,10 @@ google-services.json
 
 # Android Profiling
 *.hprof
+*.apk
+
+*.key
+*.pem
+*.idsig
+psc_source/
+*.pk8
