@@ -1,4 +1,4 @@
-# psc-research
+# Phantasy Star Classics (Android)
 
 This script will rebuild the Phantasy Star Classics APK with the Google Play Services dependencies removed.
 
@@ -32,6 +32,8 @@ If you have an existing installation of the game, from PowerShell or wherever yo
 
 Now install the APK on your phone and open the game one time, make it through the emulator menus to the game's main menu:
 `adb push "Save\." "/sdcard/Android/data/com.sega.PhantasyStarII/files/Save/"`
+
+Repeat this for any other saves you may have.  
 
 The game seems to need to run once before it will accept the saves. You do not need to use ADB, however the dates of the 
 saves will be based on the dates of the files and ADB preserves those values.  
